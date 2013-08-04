@@ -24,7 +24,7 @@ public class Menu extends Application {
 		HBox topLayout = new HBox();
 		topLayout.setAlignment(Pos.CENTER);
 		topLayout.setPadding(new Insets(15, 15, 15, 15));
-		topLayout.setSpacing(35);
+		topLayout.setSpacing(36);
 		addComponents(topLayout);
 		border.setTop(topLayout);
 		root.getChildren().add(border);

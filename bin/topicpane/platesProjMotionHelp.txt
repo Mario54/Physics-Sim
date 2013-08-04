@@ -1,0 +1,27 @@
+This is an animation of a particle affected by two plates' 
+electromagnetic field while moving. This simulation takes 
+into account the charges of the plates and the particle as 
+well as the dot's velocity and the plates' electric field.
+
+To start the animation, you must enter your input in the
+text boxes.
+
+The default values are an example of good numbers to 
+enter. If you enter random numbers, the simulation could
+act in a weird way, so enter you input by slightly 
+changing the default values.
+
+Take note that when the two plates are of the same sign, 
+the particle won't move.
+
+After having decided what values to use for the simulation,
+ press the button "Start Animation".
+
+Once the button is pressed, the application will simulate the
+movement of a particle affected by the plate's electromagnetic field
+and its initial velocity. While the animation is running, you can
+pause at any time using the "Pause" button.
+
+Once the object has fully stopped, you will be able to reset the 
+animation by using the "Reset" button. Then, you will be able to
+ simulate the object with other values.
