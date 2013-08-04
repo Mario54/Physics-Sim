@@ -1,0 +1,11 @@
+1.	Click either change listener or emitter position or 
+	direction to initialize the objects
+	
+2.	Switch their position and direction until satisfied
+
+3.	Click Start button to start
+	This animation will roughly last 1 seconds
+	
+4.	Click Stop button to stop
+
+5.	Click Reset button to reset everything from scratch

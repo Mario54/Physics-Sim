@@ -1,0 +1,11 @@
+1.	Adjust the sliders for desired amplitude, 
+	frequency and period
+
+2.	Click Start button to start the animation
+	Note:	the animation last infinitely
+			you need to stop it manually
+
+3.	Click Stop button to stop the animation
+
+4.	Click Reset button to reset the whole animation
+	and start from the initial settings

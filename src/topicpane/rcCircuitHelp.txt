@@ -1,0 +1,24 @@
+This is a simulation of the RC Circuit. 
+
+To start the animation, you must enter your input in the 
+textboxes. 
+
+The default values are an example of good numbers to enter. 
+If you enter random number, the simulation will probably act 
+in a weird way, so enter your input by slightly changning the
+default values.
+
+After having decided what values to use for the simulation, 
+press the button "Charge the capacitor". 
+
+Once the button is pressed, the application will simulate the 
+charging of a capacitor. While the simualtion is running, 
+you can pause it at any time. 
+
+Also you can press the button "Reset" to see the discharging 
+instead of the charging of the capacitor.
+
+Once the capacitor is charged at 95%, the simulation will 
+automatically stop and you will be able to see the dischargning
+of the capacitor which will also stop when the capacitor will 
+be discharged at 95%.

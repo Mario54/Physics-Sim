@@ -1,0 +1,108 @@
+.root {
+	-fx-background-image: url("background.jpg");
+}
+
+.button {
+	-fx-text-fill: #00FFEE;
+	-fx-font-family: "Arial Bold";
+	-fx-font-weight: bold;
+	-fx-font-size: 18px;
+	-fx-effect: dropshadow(gaussian,#A814E3,30,0.6,1,1);
+	-fx-background-color: linear-gradient(#AD00FC, black);
+}
+
+.button .text{
+	-fx-effect: dropshadow(gaussian, #FFF700,10,0.2,0,0);
+}
+
+.button:hover {
+	-fx-background-color: linear-gradient(red, yellow);
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.5;
+}
+
+.button:disabled {
+	-fx-background-color: #011101;
+	-fx-opacity:0.1;
+}
+
+.button:pressed {
+	-fx-background-color: linear-gradient(blue, #59FC51, #BB00FF);
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.5;
+}
+
+.choice-box {
+	-fx-font-size: 14px; 
+	-fx-border-radius : 5;
+	-fx-padding: 5 5 5 5;
+	-fx-background-color: linear-gradient(blue, grey);
+	-fx-border-radius: 5;
+}
+
+.choice-box:hover {
+	-fx-background-color: linear-gradient(red, yellow);
+	-fx-scale-x: 1.2;
+	-fx-scale-y: 1.5;
+}
+
+.choice-box .text {
+	-fx-font-size: 16px;
+	-fx-fill: yellow;
+	-fx-effect:dropshadow(gaussian,#00FFFB,5,0.6,0,0);
+}
+
+#choice-box-menu-item {
+	-fx-background-color:black;
+	-fx-effect:dropshadow(gaussian,black,5,0.6,0,0);
+}
+
+#choice-box-menu-item > .label{
+	-fx-font-size:16px;
+	-fx-text-fill:yellow;
+	-fx-effect:dropshadow(gaussian,#00FFFB,5,0.6,0,0);
+}
+
+#info-text {
+	-fx-font-smoothing-type: lcd;
+	-fx-fill: white; 
+	-fx-effect:dropshadow(gaussian,red,15,0.5,3,3);
+	-fx-font-family: "Arial", fantasy;
+	-fx-font-size: 32px;
+}
+
+.slider {
+	-fx-text-fill:yellow;
+}
+
+.slider .thumb{
+	-fx-background-image:url("smiley.png");
+	-fx-padding:32px;
+	-fx-effect:dropshadow(gaussian,red,15,0.5,0,0);
+	-fx-background-color: black;
+}
+
+.slider .track{
+	-fx-background-color:#34DFFF;	
+}
+
+.slider .axis{
+	-fx-tick-fill:#333DEF;
+}
+
+.label {
+	-fx-text-fill:#14FBFF;
+	-fx-effect:dropshadow(gaussian,#A814E3,30,0.6,1,1);
+	-fx-font-size:16px;
+}
+
+.text-field{
+	-fx-alignment: center;
+	-fx-background-color: #3F106B;
+	-fx-text-fill: #14FBFF;
+	-fx-effect: dropshadow(gaussian,#A814E3,30,0.6,1,1);
+	
+	-fx-highlight-fill: #ED0000;
+	-fx-highlight-text-fill: #00FF33;
+	}
+

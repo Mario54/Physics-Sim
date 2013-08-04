@@ -1,0 +1,22 @@
+This is an animation of an object affected by the Earth's 
+gravitational force while being thrown in the air.
+
+To start the animation, you must enter your input in the
+text boxes.
+
+The default values are an example of good numbers to 
+enter. If you enter random numbers, the simulation could
+act in a weird way, so enter you input by slightly 
+changing the default values.
+
+After having decided what values to use for the simulation,
+ press the button "Start Animation".
+
+Once the button is pressed, the application will simulate the
+movement of an object affected by the Earth's gravitational force
+and its initial velocity. While the animation is running, you can
+pause at any time using the "Pause" button.
+
+Once the object has fully stopped, you will be able to reset the 
+animation by using the "Reset" button. Then, you will be able to
+ simulate the object with other values.
